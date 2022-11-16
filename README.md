@@ -1,5 +1,5 @@
 # EV Fleet Simulation 
 The Emobpy library is used to create a model which can generate mobility and charging profiles for electric vehicles (EV_profile_generation.py) to built up a database. \
 After a database is created, a fleet can be created (Fleet_creation.py) followed by some possibly analysis that can be performed on the outputs (Fleet_analysis). In this case the analysis consist of analyzing the charging demand and availability of the EV fleet. \
-Two Jupyter notebooks are also included to explain the working of the model. The config files, pre-created database and pre-created fleet can be used when completing the Jupyter notebooks.\
+Two Jupyter notebooks are also included to explain the working of the model. The config files (config_files.zip), pre-created database (dbjup.zip) and pre-created fleets (Fleets.zip) can be used when completing the Jupyter notebooks. The pre-created database consists of 5 working and 5 inactive profiles for the Tesla model 3, Tesla model S, Renault Zoe and the Hyundai Kona. The pre-created fleet consists of three different fleets: Uncontrolled charging, Night charging and a combination of charging strategies.\
 For more indepth information about the used Emobpy library (including Jupyter notebooks) and an istallation guide I would like to reffer to: https://pypi.org/project/emobpy/ 
